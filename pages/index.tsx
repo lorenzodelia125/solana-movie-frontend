@@ -1,11 +1,10 @@
-
-import { Center, Box, Heading } from '@chakra-ui/react'
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import { AppBar } from '../components/AppBar'
-import { MovieList } from '../components/MovieList'
-import { Form } from '../components/Form'
-import styles from '../styles/Home.module.css'
+import { Center, Box, Heading } from "@chakra-ui/react";
+import type { NextPage } from "next";
+import Head from "next/head";
+import { AppBar } from "../components/AppBar";
+import { MovieList } from "../components/MovieList";
+import { Form } from "../components/Form";
+import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +26,7 @@ const Home: NextPage = () => {
         </Box>
       </Center>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
